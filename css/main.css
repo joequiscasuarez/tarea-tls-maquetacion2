@@ -4,52 +4,119 @@
  	 border: 0px;
 }
 
+body{
+	font-family: 'Open Sans', sans-serif;
+}
 
+.header_father{
+	background: black;
+	color:white;
+	padding: 12px 0px 30px 0px;
+	font-size: 13px;
+}
 
-@font-face {
-	font-family: 'fontawesome';
-	src: url('../fonts/fontawesome-webfont.woff') format('woff'),
-	     url('../fonts/fontawesome-webfont.woff2') format('woff2');
+.header_child{
+	width: 90%;
+	margin:0 auto;
+}
+
+.info_page{
+	float: left;
+	line-height: 23px;
+}
+
+.language_page{
+	float: right;
+	line-height: 23px;
+}
+
+.border{
+	display: block;
+	margin: 0px 15px 0px 25px;
+    width: 1px;
+    height: 25px;
+}
+
+.info_page li{
+	display: inline-block;
+}
+
+.language_page li{
+	display: inline-block;
+}
+
+.info_page li i{
+	padding-left: 15px;
+	padding-right: 3px;
+}
+
+.language_page li i{
+	padding-left: 10px;
+	padding-right: 25px;
 }
 
 
-.header_superior{
-background: black;
-color:white;
-padding: 13px 0px 13px 0px;
-font-family: sans-serif;
-font-size:12px;
-}
-
-.header_superior2{
+.header_father_menu{
 	background:#843fd3;
-	font-family: sans-serif;
-	padding: 14px 0px 14px 0px;
+	color:white;
 }
 
-.header_superior2 h1 a{
+.header_child_menu{
+	width: 90%;
+	margin:0 auto;
+}
+
+
+.header_child_menu h1 a {
 	color: white;
-	padding-left: 90px;
+	font-size: 24px;
 	text-decoration: none;
-	font-size:20px;
+	padding-left:35px;
+	line-height: 75px;
 }
 
-.header_superior2 nav ul li{
+.header_child_menu nav ul li{
 	display: inline-block;
 	list-style: none;
 }
 
-.header_superior2 nav ul li a{
+.header_child_menu nav ul li a{
 	text-decoration: none;
+	text-align: center;
 	color: white;
 }
 
 
-.header_superior2 h1,
-.header_superior2 nav {
+.header_child_menu h1,
+.header_child_menu nav {
 	vertical-align: middle;
 	display: inline-block;
 }
+
+
+.header_child_menu nav{
+	float:right;
+	line-height: 75px;
+}
+
+.header_child_menu li{
+	padding-right: 10px;
+}
+
+.header_child_menu li a i{
+	padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .slaider{
     background: url(../multimedia/img/image-2.jpg) center center no-repeat;
