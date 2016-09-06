@@ -10,7 +10,7 @@ body{
 
 .header_father{
 	background: black;
-	color:white;
+	color:#999999;
 	padding: 12px 0px 30px 0px;
 	font-size: 13px;
 }
@@ -55,37 +55,35 @@ body{
 	padding-right: 25px;
 }
 
-
 .header_father_menu{
 	background:#843fd3;
 	color:white;
 }
 
-.header_child_menu{
-	width: 90%;
-	margin:0 auto;
+.header_child_menu h1{
+	width: 25%;
+	text-align: center;
+	display: block;
+	
 }
-
 
 .header_child_menu h1 a {
 	color: white;
 	font-size: 24px;
 	text-decoration: none;
-	padding-left:35px;
 	line-height: 75px;
 }
 
 .header_child_menu nav ul li{
 	display: inline-block;
 	list-style: none;
+	padding: 0px 25px 0 10px;
 }
 
 .header_child_menu nav ul li a{
 	text-decoration: none;
-	text-align: center;
 	color: white;
 }
-
 
 .header_child_menu h1,
 .header_child_menu nav {
@@ -93,39 +91,97 @@ body{
 	display: inline-block;
 }
 
-
 .header_child_menu nav{
-	float:right;
+	width: 70%;
+	text-align: right;
 	line-height: 75px;
 }
 
-.header_child_menu li{
-	padding-right: 10px;
+.header_child_menu ul{
+	padding-left: 20px;
 }
 
-.header_child_menu li a i{
-	padding-right: 10px;
+.header_child_menu nav li a i{
+	padding-left: 10px;
+}
+
+.main h2{
+	color: #fff;
+	font-size: 60px;
+	text-shadow: 1px 2px 1px #000000;
+	text-align: left;
+
+}
+
+.main p{
+	color: #fff;
+	font-size: 17px;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-bottom: 30px;
+	text-align: left;
+
+}
+
+.button{
+	float: left;
+	margin-right: 10px;
 }
 
 
+.button-action-1{
+	background-color: #843fd3;
+	width: 14%;
+}
 
+.button-action-1 a{
+	margin-bottom: 0px;
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 17px;
+}
 
+.button-action-2{
+	width: 12%;
+	border:solid 2px #fff;
+}
 
+.button-action-2 a{
+	padding: 15px 0px;
+	font-weight: normal;
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	padding: 17px;
+	font-weight: bold;
+	font-family: 'Source Sans Pro', sans-serif;
+}
 
-
-
-
-
-
-
-.slaider{
+.info_content{
+    padding: 200px 0px;
     background: url(../multimedia/img/image-2.jpg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	width: 100%;
-	height: 87vh;
+	height: 100%;
 }
+
+.content{
+	width: 85%;
+	margin: 0 auto;
+}
+
+.main{
+	text-align: center;
+}
+
+
+
+
+
+
 
 
