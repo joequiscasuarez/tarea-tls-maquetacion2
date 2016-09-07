@@ -8,6 +8,16 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
+.content{
+	width: 95%;
+	margin: 0 auto;
+}
+
+.content2{
+	width: 95%;
+	margin: 0 auto;
+}
+
 .header_father{
 	background: black;
 	color:#999999;
@@ -105,9 +115,26 @@ body{
 	padding-left: 10px;
 }
 
+
+
+.info_content{
+    padding: 200px 0px;
+    background: url(../multimedia/img/image-2.jpg) center center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.main{
+	text-align: center;
+}
+
 .main h2{
 	color: #fff;
-	font-size: 60px;
+	font-size: 50px;
 	text-shadow: 1px 2px 1px #000000;
 	text-align: left;
 
@@ -134,12 +161,13 @@ body{
 }
 
 .button-action-1 a{
-	margin-bottom: 0px;
 	text-decoration: none;
 	display: block;
+	margin-bottom: 0px;
 	color: #fff;
 	font-family: 'Source Sans Pro', sans-serif;
 	padding: 17px;
+	text-align: center;
 }
 
 .button-action-2{
@@ -148,40 +176,341 @@ body{
 }
 
 .button-action-2 a{
-	padding: 15px 0px;
-	font-weight: normal;
 	text-decoration: none;
 	display: block;
 	color: #fff;
-	padding: 17px;
-	font-weight: bold;
+	text-align: center;
+	font-weight: normal;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 15px 0px;
+}
+
+.about_content{
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.about h2{
+	font-size: 32px;
+	text-align: center;
+	color:#333333;
+	padding-top: 65px;
+}
+
+.about h2:after{
+		content: "";
+		display: block;
+		background: #843fd3;
+		width: 50px;
+		height: 4px;
+		margin: 10px auto;
+}
+.border-inferior:after{
+		content: "";
+		display: block;
+		background: #843fd3;
+		width: 102px;
+		height: 4px;
+		margin: 12px auto;
+}
+
+.color{
+		color: #843fd3;
+}
+
+.about p{
+	text-align: center;
+	color:#999999;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 42px 0px;
+	padding: 0px 220px;
+	font-size: 18px;
+}
+
+video{
+	width: 80%;
+	max-width: 1200px;
+  	height: auto;
+}
+
+.info-projects{
+	background: #f6f6f6;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+
+.content2 h2{
+	font-size: 32px;
+	color: #333333;
+}
+
+.content2:after{
+		content: "";
+		display: block;
+		background: #843fd3;
+		width: 50px;
+		height: 4px;
+		margin: 10px auto;
+	}
+
+.content2 h2:after{
+	content: "";
+		display: block;
+		background: #843fd3;
+		width: 50px;
+		height: 4px;
+		margin: 10px auto;
+}
+
+.projects{
+margin-left: -3%;
+margin-top:35px;
+
+
+}
+
+.project{
+	width: 30.33%;
+	float:left;
+	margin-left: 3%;
+	background: #fff;
+	margin-bottom: 30px;
+	-webkit-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+
+}
+
+.project h3{
+	color: #333333;
+	font-size: 23px;
+}
+
+.project p{
+	padding: 0px 48px;
+	color: #999999;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 17px;
+}
+
+
+.container3 h2:after{
+		content: "";
+		display: block;
+		background: #843fd3;
+		width: 50px;
+		height: 4px;
+		margin: 10px auto;
+}
+
+
+.info-choose-us {
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 300px;
+}
+
+.container3 h2{
+	font-size: 32px;
+	color: #333333;
+}
+
+.choose{
+	margin-left: -1%;
+	padding: 0px 50px;
+}
+
+.perfil-choose{
+	width: 32.33%;
+	float: left;
+	border-bottom: 1px solid #efefef;
+	margin-left: 1%;
+}
+
+.perfil-choose .fa{
+	font-size: 27px;
+}
+
+.fa-briefcase,
+.fa-cog,
+.fa-lightbulb-o,
+.fa-shield,
+.fa-glass,
+.fa-lock{
+	color: #843fd3;
+}
+
+
+
+
+
+
+
+
+
+
+
+.info-price{
+	text-align: center;
+	margin-top: 40px;
+	background-image: url(../multimedia/img/image-1.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    padding-bottom: 45px;
+    width: 100%;
+	height: 100%;
+	
+}
+
+.info-price h2{
+	font-size: 45px;
+	color: #fff;
+}
+
+.info-price p{
+	color: #fff;
+	font-size: 18px;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-.info_content{
-    padding: 200px 0px;
-    background: url(../multimedia/img/image-2.jpg) center center no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	width: 100%;
-	height: 100%;
+.price{
+	width: 24%;
+	float: left;
+	background: #fff;
+	margin-left:1%;
 }
 
-.content{
-	width: 85%;
+.price h4{
+	color: #999999;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 23px;
+	margin: 0;
+}
+
+.titulo-price{
+	background: #000;
+	padding: 10px;
+}
+
+.titulo-price-2 h4{
+	background: #843fd3;
+	padding: 10px;
+	color: #fff;
+}
+
+.costo{
+	width: 200px;
 	margin: 0 auto;
+	position: relative;
+	padding: 40px;
 }
 
-.main{
-	text-align: center;
+.costo-2{
+	width: 200px;
+	margin: 0 auto;
+	position: relative;
+	padding: 40px;
 }
 
+.costo-circular{
+	border-radius: 50%;
+	background: #1e1e1e;
+	padding: 25px;
+}
 
+.costo-circular-2{
+	border-radius: 50%;
+	background: #843fd3;
+	padding: 25px;
+}
 
+.costo p{
+	margin: 0;
+	font-size: 50px;
+	vertical-align: top;
+	font-family: 'Open Sans';
+	font-weight: bold;
+	color: #999999;
+}
 
+.costo-2 p{
+	margin: 0;
+	font-size: 50px;
+	vertical-align: top;
+	font-family: 'Open Sans';
+	font-weight: bold;
+	color: #fff;
+}
 
+.dolar{
+	font-size: 20px;
+	position: absolute;
+	top: 80px;
+	left: 60px;
+}
 
+.info-costo p{
+	color: #999999;
+	font-family: 'Source Sans Pro', sans-serif;
 
+}
 
+.button-costo{
+	background-color: #999999;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.button-costo a{
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	display: block;
+}
+
+.button-costo-2{
+	background: #843fd3;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.button-costo-2 a{
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	display: block;
+}
+
+.clearfix:after,
+.clearfix:before{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.sub-border:after{
+		content: "";
+		display: block;
+		background: #843fd3;
+		width: 102px;
+		height: 4px;
+		margin: 12px auto;
+	}
+
+	.parrafo-price:after{
+		content: "";
+		display: block;
+		background: #843fd3;
+		width: 50px;
+		height: 4px;
+		margin: 10px auto;
+	}
